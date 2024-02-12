@@ -20,6 +20,8 @@
 		C06D81472B743FC700EDC756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06D81462B743FC700EDC756 /* ContentView.swift */; };
 		C06D81492B743FC800EDC756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06D81482B743FC800EDC756 /* Assets.xcassets */; };
 		C06D814C2B743FC800EDC756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06D814B2B743FC800EDC756 /* Preview Assets.xcassets */; };
+		C0E1DF5C2B7AD202009A6E53 /* NotificationName_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1DF5B2B7AD202009A6E53 /* NotificationName_Extensions.swift */; };
+		C0E1DF5E2B7AD75E009A6E53 /* StudentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E1DF5D2B7AD75E009A6E53 /* StudentsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		C06D81482B743FC800EDC756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06D814B2B743FC800EDC756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06D814D2B743FC800EDC756 /* App2_Grades_inClass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App2_Grades_inClass.entitlements; sourceTree = "<group>"; };
+		C0E1DF5B2B7AD202009A6E53 /* NotificationName_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName_Extensions.swift; sourceTree = "<group>"; };
+		C0E1DF5D2B7AD75E009A6E53 /* StudentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C04A59172B76E1C5002A78FD /* StudentTableView.swift */,
+				C0E1DF5D2B7AD75E009A6E53 /* StudentsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -109,15 +114,24 @@
 		C06D81552B7441BF00EDC756 /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
+				C0E1DF5A2B7AD1EA009A6E53 /* Extensions */,
+				C04A59112B76DF40002A78FD /* CourseResults.swift */,
 				C04A59092B76D98A002A78FD /* LetterGrade.swift */,
 				C04A59072B76D895002A78FD /* Student.swift */,
 				C04A590B2B76DB4E002A78FD /* AssignmentScore.swift */,
 				C04A590D2B76DD09002A78FD /* Assignment.swift */,
 				C04A590F2B76DE58002A78FD /* AssignmentGroup.swift */,
 				C04A59132B76DFF4002A78FD /* TestDataExtensions.swift */,
-				C04A59112B76DF40002A78FD /* CourseResults.swift */,
 			);
 			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C0E1DF5A2B7AD1EA009A6E53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0E1DF5B2B7AD202009A6E53 /* NotificationName_Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04A590E2B76DD09002A78FD /* Assignment.swift in Sources */,
+				C0E1DF5C2B7AD202009A6E53 /* NotificationName_Extensions.swift in Sources */,
 				C04A59122B76DF40002A78FD /* CourseResults.swift in Sources */,
 				C04A590C2B76DB4E002A78FD /* AssignmentScore.swift in Sources */,
 				C04A59182B76E1C5002A78FD /* StudentTableView.swift in Sources */,
 				C06D81472B743FC700EDC756 /* ContentView.swift in Sources */,
+				C0E1DF5E2B7AD75E009A6E53 /* StudentsListView.swift in Sources */,
 				C04A59082B76D895002A78FD /* Student.swift in Sources */,
 				C04A59102B76DE58002A78FD /* AssignmentGroup.swift in Sources */,
 				C04A59162B76E15B002A78FD /* GradeViewModel.swift in Sources */,
